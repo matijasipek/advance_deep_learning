@@ -1,2 +1,3 @@
-data/
-pretrained_models/
+data/scene_graphs.json
+data/object_synsets.json
+pretrained_models/vg64.pt
