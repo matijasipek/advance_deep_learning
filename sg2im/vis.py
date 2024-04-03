@@ -4,7 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 from imageio import imread
-matplotlib.use('Agg')
 
 
 """
