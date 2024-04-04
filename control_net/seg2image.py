@@ -18,3 +18,7 @@ from annotator.util import resize_image, HWC3  #solved
 from annotator.uniformer import UniformerDetector  #solved
 from cldm.model import create_model, load_state_dict  #solved
 from cldm.ddim_hacked import DDIMSampler #solved
+
+#apply_uniformer = UniformerDetector()
+
+model = create_model('models/cldm_v15.yaml').cpu()

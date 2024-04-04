@@ -1,9 +1,3 @@
-import sys
-import os
-project_root = '/zhome/48/2/181238/cv_project/advance_deep_learning/control_net'
-sys.path.append(project_root)
-
-
 from inspect import isfunction
 import math
 import torch
@@ -12,7 +6,7 @@ from torch import nn, einsum
 from einops import rearrange, repeat
 from typing import Optional, Any
 
-from ldm.modules.diffusionmodules.util import checkpoint # solved
+from ldm.modules.diffusionmodules.util import checkpoint
 
 
 try:
