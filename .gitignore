@@ -3,3 +3,4 @@ data/object_synsets.json
 pretrained_models/vg64.pt
 control_net/models/control_sd15_seg.pth
 control_net/annotator/ckpts/upernet_global_small.pth
+data/vg
