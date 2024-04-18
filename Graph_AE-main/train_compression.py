@@ -7,6 +7,9 @@ import argparse
 
 def main(arg):
     device = torch.device(arg.device)
+    print("device:", str(device))
+    if torch.cuda.is_available():
+            print('Using cuda')
 
     num_epoch = arg.e
     batch_size = arg.batch
