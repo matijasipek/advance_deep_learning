@@ -36,7 +36,7 @@ def main(arg):
         print("model not found")
         return
 
-    model.load_state_dict(torch.load(arg.model_dir + arg.m + ".ckpt"), strict=True)
+        model.load_state_dict(torch.load(arg.model_dir + arg.m + ".ckpt"), strict=True)
     group1, group2 = load_model_result(model, train_set, test_set, device)
     input_size2 = group1[0].shape[1]
     c_model = MLP(input_size2, arg.hidden, num_classes, arg.dropout).to(device)
