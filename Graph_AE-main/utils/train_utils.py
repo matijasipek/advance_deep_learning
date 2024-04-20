@@ -2,6 +2,8 @@ import torch
 import os
 
 
+import matplotlib.pyplot as plt
+
 def load_model_result(model, train_set, test_set, device):
     x1, e1, batch1 = None, None, None
     for data in train_set:
@@ -57,6 +59,8 @@ def train_cp(model, optimizer, device, train_set, valid_set, num_epoch, path, m_
 
 
 def train_cf(model, optimizer, device, train_set, valid_set, num_epoch, group1, group2):
+    train_accuracies = []
+    test_accuracies = []
 
     for e in range(num_epoch):
         c_loss = 0
@@ -67,11 +71,18 @@ def train_cf(model, optimizer, device, train_set, valid_set, num_epoch, group1, 
             data = data.to(device)
             model.training = True
             c = model(group1[0], group1[1], group1[2])
-            label = data.y.long()
+            #label = data.y.long()
+            try:
+                label = data.y.long()[:,0] #ADICIONADO O [0,:]
+            except IndexError:
+                label = data.y.long()
+            #label = data.y.long()[:,0] #ADICIONADO O [0,:]
 
             pred = c.argmax(dim=1)
             total_num += label.shape[0]
+            print("[Teste]", type(data), data)#, data.shape)
             print("[pred e label shapes]", pred.shape, label.shape)
+            #print("[LABEL]", label)
             accuracy += (pred == label).sum().item()
             c_loss = torch.nn.CrossEntropyLoss()(c, label)
             c_loss.backward()
@@ -83,6 +94,10 @@ def train_cf(model, optimizer, device, train_set, valid_set, num_epoch, group1, 
         print('Train Loss:', c_loss.item())
         print('Train Accuracy:', accuracy)
 
+        
+        #ESCREVE NO VETOR PARA DAR PLOT DEPOIS
+        train_accuracies += [accuracy]
+
         accuracy = 0
         total_num = 0
         for data in valid_set:
@@ -90,10 +105,23 @@ def train_cf(model, optimizer, device, train_set, valid_set, num_epoch, group1, 
             model.training = False
             c = model(group2[0], group2[1], group2[2])
             pred = c.argmax(dim=1)
-            label = data.y.long()
+            try:
+                label = data.y.long()[:,0] #ADICIONADO O [0,:]
+            except IndexError:
+                label = data.y.long()
             total_num += label.shape[0]
             accuracy += (pred == label).sum().item()
 
         accuracy /= total_num
 
         print('Test Accuracy:', accuracy)
+        
+        #ESCREVE NO VETOR PARA DAR PLOT DEPOIS
+        test_accuracies += [accuracy]
+    
+    #PLOT
+    plt.plot(list(range(0,num_epoch)), train_accuracies, label="train_accuracies")
+    plt.plot(list(range(0,num_epoch)), test_accuracies,  label="test_accuracies")
+    plt.legend() 
+    plt.show(block=True)
+    plt.savefig('savedImage.png')
