@@ -7,6 +7,7 @@ import argparse
 
 def main(arg):
     device = torch.device(arg.device)
+    print("Device =", str(device))
 
     num_epoch = arg.e
     batch_size = arg.batch
