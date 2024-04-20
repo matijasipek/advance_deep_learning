@@ -71,6 +71,7 @@ def train_cf(model, optimizer, device, train_set, valid_set, num_epoch, group1, 
 
             pred = c.argmax(dim=1)
             total_num += label.shape[0]
+            print("[pred e label shapes]", pred.shape, label.shape)
             accuracy += (pred == label).sum().item()
             c_loss = torch.nn.CrossEntropyLoss()(c, label)
             c_loss.backward()

@@ -36,7 +36,7 @@ def main(arg):
         print("model not found")
         return
 
-    print("argmodel dir", str(arg.model_dir + arg.m + ".ckpt"))
+    print("[PRINT] argmodel dir", str(arg.model_dir + arg.m + ".ckpt"))
     try:
         model.load_state_dict(torch.load(arg.model_dir + arg.m + ".ckpt"), strict=True)
     except RuntimeError as e:
