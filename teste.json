@@ -1,0 +1,974 @@
+[
+    {
+        "predicate": "on",
+        "object": {
+            "h": 262,
+            "w": 714,
+            "y": 328,
+            "x": 77,
+            "object_id": 38204,
+            "names": [
+                "street"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 192,
+            "w": 274,
+            "y": 338,
+            "x": 119,
+            "object_id": 38205,
+            "names": [
+                "shade"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15927,
+        "synsets": null
+    },
+    {
+        "predicate": "wears",
+        "object": {
+            "h": 26,
+            "w": 52,
+            "y": 489,
+            "x": 243,
+            "object_id": 38207,
+            "names": [
+                "sneakers"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 262,
+            "w": 60,
+            "y": 249,
+            "x": 238,
+            "object_id": 38206,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15928,
+        "synsets": null
+    },
+    {
+        "predicate": "has",
+        "object": {
+            "h": 15,
+            "w": 23,
+            "y": 366,
+            "x": 514,
+            "object_id": 38208,
+            "names": [
+                "headlight"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 98,
+            "w": 74,
+            "y": 315,
+            "x": 479,
+            "object_id": 38209,
+            "names": [
+                "car"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15929,
+        "synsets": null
+    },
+    {
+        "predicate": "on",
+        "object": {
+            "h": 536,
+            "w": 218,
+            "y": 2,
+            "x": 1,
+            "object_id": 38213,
+            "names": [
+                "building"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 182,
+            "w": 88,
+            "y": 13,
+            "x": 118,
+            "object_id": 38212,
+            "names": [
+                "sign"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15930,
+        "synsets": null
+    },
+    {
+        "predicate": "on",
+        "object": {
+            "h": 266,
+            "w": 722,
+            "y": 331,
+            "x": 77,
+            "object_id": 38215,
+            "names": [
+                "sidewalk"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 327,
+            "w": 87,
+            "y": 234,
+            "x": 622,
+            "object_id": 38214,
+            "names": [
+                "tree trunk"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15931,
+        "synsets": null
+    },
+    {
+        "predicate": "has",
+        "object": {
+            "h": 101,
+            "w": 59,
+            "y": 289,
+            "x": 241,
+            "object_id": 38216,
+            "names": [
+                "shirt"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 262,
+            "w": 60,
+            "y": 249,
+            "x": 238,
+            "object_id": 38217,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15932,
+        "synsets": null
+    },
+    {
+        "predicate": "next to",
+        "object": {
+            "h": 233,
+            "w": 440,
+            "y": 283,
+            "x": 358,
+            "object_id": 38219,
+            "names": [
+                "street"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 266,
+            "w": 722,
+            "y": 331,
+            "x": 77,
+            "object_id": 38218,
+            "names": [
+                "sidewalk"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15933,
+        "synsets": null
+    },
+    {
+        "predicate": "has",
+        "object": {
+            "h": 170,
+            "w": 67,
+            "y": 339,
+            "x": 721,
+            "object_id": 38221,
+            "names": [
+                "back"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 174,
+            "w": 91,
+            "y": 342,
+            "x": 708,
+            "object_id": 38220,
+            "names": [
+                "car"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15934,
+        "synsets": null
+    },
+    {
+        "predicate": "has",
+        "object": {
+            "h": 12,
+            "w": 20,
+            "y": 268,
+            "x": 271,
+            "object_id": 38223,
+            "names": [
+                "glasses"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 262,
+            "w": 60,
+            "y": 249,
+            "x": 238,
+            "object_id": 38222,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15935,
+        "synsets": null
+    },
+    {
+        "predicate": "on",
+        "object": {
+            "h": 266,
+            "w": 722,
+            "y": 331,
+            "x": 77,
+            "object_id": 38225,
+            "names": [
+                "sidewalk"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 143,
+            "w": 32,
+            "y": 327,
+            "x": 574,
+            "object_id": 38224,
+            "names": [
+                "parking meter"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15936,
+        "synsets": null
+    },
+    {
+        "predicate": "wears",
+        "object": {
+            "h": 26,
+            "w": 52,
+            "y": 489,
+            "x": 243,
+            "object_id": 38228,
+            "names": [
+                "sneakers"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 262,
+            "w": 60,
+            "y": 249,
+            "x": 238,
+            "object_id": 38229,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15937,
+        "synsets": null
+    },
+    {
+        "predicate": "has",
+        "object": {
+            "h": 34,
+            "w": 46,
+            "y": 481,
+            "x": 391,
+            "object_id": 38230,
+            "names": [
+                "shoes"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 251,
+            "w": 75,
+            "y": 264,
+            "x": 372,
+            "object_id": 38231,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15938,
+        "synsets": null
+    },
+    {
+        "predicate": "has",
+        "object": {
+            "h": 101,
+            "w": 59,
+            "y": 289,
+            "x": 241,
+            "object_id": 38232,
+            "names": [
+                "shirt"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 262,
+            "w": 60,
+            "y": 249,
+            "x": 238,
+            "object_id": 38234,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15939,
+        "synsets": null
+    },
+    {
+        "predicate": "wears",
+        "object": {
+            "h": 118,
+            "w": 38,
+            "y": 384,
+            "x": 245,
+            "object_id": 38233,
+            "names": [
+                "pants"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 262,
+            "w": 60,
+            "y": 249,
+            "x": 238,
+            "object_id": 38234,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15940,
+        "synsets": null
+    },
+    {
+        "predicate": "has",
+        "object": {
+            "h": 97,
+            "w": 89,
+            "y": 296,
+            "x": 356,
+            "object_id": 38235,
+            "names": [
+                "jacket"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 251,
+            "w": 75,
+            "y": 264,
+            "x": 372,
+            "object_id": 38237,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15941,
+        "synsets": null
+    },
+    {
+        "predicate": "has",
+        "object": {
+            "h": 128,
+            "w": 54,
+            "y": 369,
+            "x": 382,
+            "object_id": 38236,
+            "names": [
+                "pants"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 251,
+            "w": 75,
+            "y": 264,
+            "x": 372,
+            "object_id": 38237,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15942,
+        "synsets": null
+    },
+    {
+        "predicate": "parked on",
+        "object": {
+            "h": 266,
+            "w": 722,
+            "y": 331,
+            "x": 77,
+            "object_id": 38239,
+            "names": [
+                "sidewalk"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 34,
+            "w": 28,
+            "y": 319,
+            "x": 318,
+            "object_id": 38238,
+            "names": [
+                "bike"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15943,
+        "synsets": null
+    },
+    {
+        "predicate": "parked on",
+        "object": {
+            "h": 266,
+            "w": 722,
+            "y": 331,
+            "x": 77,
+            "object_id": 38239,
+            "names": [
+                "sidewalk"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 35,
+            "w": 29,
+            "y": 319,
+            "x": 334,
+            "object_id": 38240,
+            "names": [
+                "bike"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15944,
+        "synsets": null
+    },
+    {
+        "predicate": "parked on",
+        "object": {
+            "h": 233,
+            "w": 440,
+            "y": 283,
+            "x": 358,
+            "object_id": 38242,
+            "names": [
+                "street"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 185,
+            "w": 265,
+            "y": 271,
+            "x": 521,
+            "object_id": 38241,
+            "names": [
+                "work truck"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15945,
+        "synsets": null
+    },
+    {
+        "predicate": "parked on",
+        "object": {
+            "h": 233,
+            "w": 440,
+            "y": 283,
+            "x": 358,
+            "object_id": 38244,
+            "names": [
+                "street"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 174,
+            "w": 91,
+            "y": 342,
+            "x": 708,
+            "object_id": 38243,
+            "names": [
+                "car"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 15946,
+        "synsets": null
+    },
+    {
+        "predicate": "behind",
+        "object": {
+            "h": 251,
+            "w": 75,
+            "y": 264,
+            "x": 372,
+            "object_id": 7480094,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 143,
+            "w": 32,
+            "y": 327,
+            "x": 574,
+            "object_id": 7480093,
+            "names": [
+                "parking meter"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186256,
+        "synsets": null
+    },
+    {
+        "predicate": "holding",
+        "object": {
+            "h": 9,
+            "w": 11,
+            "y": 288,
+            "x": 399,
+            "object_id": 7480096,
+            "names": [
+                "chin"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 250,
+            "w": 82,
+            "y": 264,
+            "x": 369,
+            "object_id": 7480095,
+            "names": [
+                "guy"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186257,
+        "synsets": null
+    },
+    {
+        "predicate": "wearing",
+        "object": {
+            "h": 101,
+            "w": 59,
+            "y": 289,
+            "x": 241,
+            "object_id": 7480103,
+            "names": [
+                "shirt"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 262,
+            "w": 60,
+            "y": 249,
+            "x": 238,
+            "object_id": 7480102,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186258,
+        "synsets": null
+    },
+    {
+        "predicate": "holding",
+        "object": {
+            "h": 9,
+            "w": 11,
+            "y": 288,
+            "x": 399,
+            "object_id": 7480105,
+            "names": [
+                "chin"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 251,
+            "w": 75,
+            "y": 264,
+            "x": 372,
+            "object_id": 7480104,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186259,
+        "synsets": null
+    },
+    {
+        "predicate": "near",
+        "object": {
+            "h": 360,
+            "w": 176,
+            "y": 0,
+            "x": 249,
+            "object_id": 7480107,
+            "names": [
+                "tree"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 35,
+            "w": 40,
+            "y": 319,
+            "x": 321,
+            "object_id": 7480106,
+            "names": [
+                "bikes"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186260,
+        "synsets": null
+    },
+    {
+        "predicate": "wearing",
+        "object": {
+            "h": 34,
+            "w": 46,
+            "y": 481,
+            "x": 391,
+            "object_id": 7480110,
+            "names": [
+                "shoes"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 251,
+            "w": 75,
+            "y": 264,
+            "x": 372,
+            "object_id": 7480109,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186261,
+        "synsets": null
+    },
+    {
+        "predicate": "near",
+        "object": {
+            "h": 360,
+            "w": 176,
+            "y": 0,
+            "x": 249,
+            "object_id": 7480113,
+            "names": [
+                "tree"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 35,
+            "w": 40,
+            "y": 319,
+            "x": 321,
+            "object_id": 7480112,
+            "names": [
+                "bikes"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186262,
+        "synsets": null
+    },
+    {
+        "predicate": "on",
+        "object": {
+            "h": 262,
+            "w": 60,
+            "y": 249,
+            "x": 238,
+            "object_id": 7480116,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 101,
+            "w": 59,
+            "y": 289,
+            "x": 241,
+            "object_id": 7480115,
+            "names": [
+                "shirt"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186263,
+        "synsets": null
+    },
+    {
+        "predicate": "in",
+        "object": {
+            "h": 101,
+            "w": 59,
+            "y": 289,
+            "x": 241,
+            "object_id": 7480125,
+            "names": [
+                "shirt"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 262,
+            "w": 60,
+            "y": 249,
+            "x": 238,
+            "object_id": 7480124,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186264,
+        "synsets": null
+    },
+    {
+        "predicate": "wearing",
+        "object": {
+            "h": 118,
+            "w": 38,
+            "y": 384,
+            "x": 245,
+            "object_id": 7480127,
+            "names": [
+                "pants"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 262,
+            "w": 60,
+            "y": 249,
+            "x": 238,
+            "object_id": 7480126,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186265,
+        "synsets": null
+    },
+    {
+        "predicate": "on top of",
+        "object": {
+            "h": 233,
+            "w": 440,
+            "y": 283,
+            "x": 358,
+            "object_id": 7480133,
+            "names": [
+                "street"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 143,
+            "w": 32,
+            "y": 327,
+            "x": 574,
+            "object_id": 7480132,
+            "names": [
+                "parking meter"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186266,
+        "synsets": null
+    },
+    {
+        "predicate": "next to",
+        "object": {
+            "h": 233,
+            "w": 440,
+            "y": 283,
+            "x": 358,
+            "object_id": 7480135,
+            "names": [
+                "street"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 360,
+            "w": 176,
+            "y": 0,
+            "x": 249,
+            "object_id": 7480134,
+            "names": [
+                "tree"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186267,
+        "synsets": null
+    },
+    {
+        "predicate": "wearing",
+        "object": {
+            "h": 12,
+            "w": 20,
+            "y": 268,
+            "x": 271,
+            "object_id": 7480137,
+            "names": [
+                "glasses"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 262,
+            "w": 60,
+            "y": 249,
+            "x": 238,
+            "object_id": 7480136,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186268,
+        "synsets": null
+    },
+    {
+        "predicate": "behind",
+        "object": {
+            "h": 262,
+            "w": 60,
+            "y": 249,
+            "x": 238,
+            "object_id": 7480139,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 35,
+            "w": 40,
+            "y": 319,
+            "x": 321,
+            "object_id": 7480138,
+            "names": [
+                "bikes"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186269,
+        "synsets": null
+    },
+    {
+        "predicate": "by",
+        "object": {
+            "h": 266,
+            "w": 722,
+            "y": 331,
+            "x": 77,
+            "object_id": 7480141,
+            "names": [
+                "sidewalk"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 557,
+            "w": 606,
+            "y": 0,
+            "x": 190,
+            "object_id": 7480140,
+            "names": [
+                "trees"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186270,
+        "synsets": null
+    },
+    {
+        "predicate": "wearing",
+        "object": {
+            "h": 97,
+            "w": 89,
+            "y": 296,
+            "x": 356,
+            "object_id": 7480147,
+            "names": [
+                "jacket"
+            ],
+            "synsets": null
+        },
+        "subject": {
+            "h": 251,
+            "w": 75,
+            "y": 264,
+            "x": 372,
+            "object_id": 7480146,
+            "names": [
+                "man"
+            ],
+            "synsets": null
+        },
+        "relationship_id": 3186271,
+        "synsets": null
+    }
+]
